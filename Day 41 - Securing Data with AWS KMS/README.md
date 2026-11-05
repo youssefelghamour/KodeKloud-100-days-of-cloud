@@ -137,4 +137,4 @@ I confirmed the key in the AWS Management Console:
 I verified that the symmetric KMS key with alias `alias/devops-KMS-Key` was created and enabled. I encrypted `/root/SensitiveData.txt` into `/root/EncryptedData.bin` and successfully decrypted it back to `/root/DecryptedData.txt`. The `diff` check confirmed an exact match, and the AWS Management Console confirms the key is active and ready for use.
 
 ## Screenshots
-![day-41-cli-screenshot](day-41-cli-screenshot.png)
+![day-41-cli-screenshot](day-41-cli-screenshot.PNG)
