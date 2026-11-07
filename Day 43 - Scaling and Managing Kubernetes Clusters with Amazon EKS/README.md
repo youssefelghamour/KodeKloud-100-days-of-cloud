@@ -4,7 +4,7 @@
 The objective is to provision an Amazon Elastic Kubernetes Service (EKS) control plane named `devops-eks` in the `us-east-1` region using the AWS CLI. I created the required IAM service role (`eksClusterRole`), mapped subnets across three Availability Zones (`us-east-1a`, `us-east-1b`, and `us-east-1c`) in the default VPC for high availability, restricted the Kubernetes API server endpoint to private access only, and verified that the cluster reached the `ACTIVE` state.
 
 
-![day-43-diagram](day-43-diagram.PNG)
+![day-43-diagram](day-43-diagram.png)
 
 
 ## 1. Amazon EKS Architecture & Private Endpoints
